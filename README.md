@@ -1,4 +1,4 @@
-##Hyperd3ath Jailbreak
+## Hyperd3ath Jailbreak
 
 Hyperd3ath is one of the first jailbreaks to support most macOS versions.
 Some issues may include:
