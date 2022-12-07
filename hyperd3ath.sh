@@ -9,7 +9,7 @@ then
 dsenableroot 
 echo 'root user hopefully enabled and on login screen.'
 echo 'installing brew. may fail on 10.13, git issues lol'
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)";;
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 
 read -p "Would you like to disable SIP? (y/n) " -n 1 -r
