@@ -35,7 +35,3 @@ sudo shutdown -r now
 
 else
  exit
-
-
-
-
