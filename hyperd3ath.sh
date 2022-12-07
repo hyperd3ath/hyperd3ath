@@ -13,7 +13,6 @@ echo 'installing brew. may fail on 10.13, git issues lol'
 
 else if [[ ! REPLY =~ ^[Nn]$ ]]
  exit -1
-fi
 
 
 read -p "Would you like to disable SIP? (y/n) " -n 1 -r
@@ -25,7 +24,6 @@ echo 'a restart is needed. when your computer shuts down fully, press CMD + R un
 
 else if [[ ! REPLY =~ ^[Nn]$ ]]
  exit -1
-fi
 
 read -p "type Y when ready to reboot " -n 1 -r
 echo    # (optional) move to a new line
@@ -37,4 +35,3 @@ sudo shutdown -r now
 
 else if [[ ! REPLY =~ ^[Nn]$ ]]
  exit -1
-fi
